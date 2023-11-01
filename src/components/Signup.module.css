@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ariel&display=swap');
+*{
+    font-family: 'Ariel', sans-serif;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    color: black;
+
+
+}
+.container{
+    height: 100%;
+    min-height: 100vh;
+    width:1000;
+    background:linear-gradient(to right, blue , cyan) ;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+.innerBox{
+    min-width: 600px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer button{
+    
+    padding: 10px;
+    
+    border: none;
+    background-color:var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 100ms;
+}
+.footer button:hover{
+    background-color:cyan
+}
+.footer p span {
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.footer p span a{
+    color: rgb(14, 120, 158);
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+  
+
+    
+}
+
+.footer p span a:hover{
+ 
+    color: cyan;
+    
+}
+.footer span link{
+    color: #07a2b3;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.footer .error{
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+}
+.footer button :disabled{
+    cursor: not-allowed;
+    background-color: gray !important;
+    color: #fff;
+
+}
+.error{
+    font-size: small;
+    color: red;
+    cursor: pointer;
+    text-emphasis: none;
+}
